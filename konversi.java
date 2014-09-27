@@ -1,10 +1,9 @@
-import java.util.Scanner;
+import java.util;
 
 public class konversi {
-    static String name; //variable global
+    static String name; 
     static int bilDes;
- 
-    //fungsi/method rekursi
+
 
     public static void Biner (int n){
         if(n>1){
@@ -55,8 +54,7 @@ public class konversi {
         System.out.print("Masukkan Angka Dari Menu Di Atas = ");
         Scanner inputan=new Scanner (System.in);
         int pilmenu=inputan.nextInt();
-        return pilmenu;
-    }
+        return pilmenu; }
 		case 1: tampilBanner();break;
 		case 2: tampilHexa() ; break;
 		case 3: tampilOkta() ;break;
