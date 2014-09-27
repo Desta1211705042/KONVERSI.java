@@ -57,5 +57,17 @@ public class konversi {
         int pilmenu=inputan.nextInt();
         return pilmenu;
     }
- 
-   
+		case 1: tampilBanner();break;
+		case 2: tampilHexa() ; break;
+		case 3: tampilOkta() ;break;
+		case 4: System.out.println("nuhun");
+				System.out.ptintln("Maaf. pilih angka 1-4 saja)" +"") break;
+				}
+				public static void main(String arg[]) {
+				do{
+					//pemanggilan method/fungsi menu
+					menu (inpBil());
+				}
+					while(true);
+				}
+		}
